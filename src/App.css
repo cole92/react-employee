@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.employees {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  gap: 50px;
+}
+.empBlock{
+  border-radius: 20px;
+  padding: 50px;
+  background-color: rgb(20, 200, 220);
+  color: #fff;
+}
